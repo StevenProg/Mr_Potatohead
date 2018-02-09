@@ -106,10 +106,13 @@
     <ImageView
         android:id="@+id/shoesView"
         android:layout_width="383dp"
-        android:layout_height="361dp"
+        android:layout_height="362dp"
+        android:layout_marginBottom="8dp"
         android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/bodyView"
         app:layout_constraintTop_toTopOf="@+id/bodyView"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/shoes" />
 
     <CheckBox
@@ -218,4 +221,15 @@
         android:text="Eyebrows"
         app:layout_constraintEnd_toEndOf="@+id/mustacheView"
         app:layout_constraintTop_toBottomOf="@+id/mustacheView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="308dp"
+        android:layout_marginStart="68dp"
+        android:text="Tap boxes to select parts of Mr. Potatohead"
+        app:layout_constraintBottom_toBottomOf="@+id/noseView"
+        app:layout_constraintStart_toStartOf="@+id/mouthView" />
+
 </android.support.constraint.ConstraintLayout>
