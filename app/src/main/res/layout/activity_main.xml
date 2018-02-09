@@ -21,8 +21,10 @@
         android:layout_width="383dp"
         android:layout_height="361dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@+id/bodyView"
+        app:layout_constraintStart_toStartOf="@+id/noseView"
         app:layout_constraintTop_toTopOf="@+id/bodyView"
         app:srcCompat="@drawable/arms" />
 
@@ -30,9 +32,10 @@
         android:id="@+id/earsView"
         android:layout_width="383dp"
         android:layout_height="361dp"
-        android:layout_marginEnd="7dp"
+        android:layout_marginStart="8dp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@+id/armsView"
+        app:layout_constraintStart_toStartOf="@+id/noseView"
         app:layout_constraintTop_toTopOf="@+id/bodyView"
         app:srcCompat="@drawable/ears" />
 
